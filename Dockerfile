@@ -1,4 +1,4 @@
-FROM hellgate75/apache-hadoop:3.0.0-alpha3
+FROM hellgate75/apache-hadoop:2.8.0
 
 # maintainer details
 MAINTAINER Fabrizio Torelli <hellgate75@gmail.com>
