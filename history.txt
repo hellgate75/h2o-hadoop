@@ -1,0 +1,97 @@
+    1  ll
+    2  cd h2o-3.10.5.3/
+    3  ll
+    4  cd bindings/java/
+    5  ll
+    6  unzip h2o-bindings-3.10.5.zip
+    7  ll
+    8  cd h2o-bindings-3.10.5/
+    9  ll
+   10  ll lib/
+   11  cd ..
+   12  cd h2o-bindings-3.10.5
+   13  ll bin/
+   14  cd ..
+   15  ll
+   16  cat bindings/java/h2o-bindings-3.10.5/bin/h2o-bindings
+   17  ll
+   18  hadoop jar h2o.jar -nodes 1 -mapperXmx 6g -output hdfsOutputDirName
+   19  apt-get install -y xgboost4j_gpu
+   20  apt-get install -y xgboost4j
+   21  apt-get install -y xgboost4j*
+   22  sudo add-apt-repository ppa:graphics-drivers/ppa
+   23  sudo add-apt-repository --help
+   24  sudo add-apt-repository -y ppa:graphics-drivers/ppa
+   25  apt-get -y update
+   26  apt-get install -y xgboost4j_gpu
+   27  sudo apt-get -y upgrade
+   28  ubuntu-drivers devices
+   29  sudo apt-get install cuda
+   30  wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/7fa2af80.pub
+   31  cd ..
+   32  wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/7fa2af80.pub
+   33  cat 7fa2af80.pub | apt-key add -
+   34  ll
+   35  wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_8.0.61-1_amd64.deb
+   36  sudo dpkg -i cuda-repo-ubuntu1604_8.0.61-1_amd64.deb
+   37  sudo apt-get update
+   38  sudo apt-get install cuda
+   38b apt-get --no-install-recommends --allow-unauthenticated  install -y cuda
+   39  sudo apt-get install cuda-8-0
+   40  sudo apt-get install cuda cuda-8-0 cuda-runtime-8-0 cuda-demo-suite-8-0
+   41  sudo apt-get install cuda cuda-8-0 cuda-runtime-8-0 cuda-demo-suite-8-0 cuda-drivers
+   42  apt-get install --help
+   43  sudo apt-get install -y -f cuda
+   44  sudo apt-get --fix-broken install -y -f cuda
+   45  sudo apt-get install -y --fix-broken -f cuda
+   46  apt-get install -y pciutils
+   47  lspci | grep -i nvidia
+   48  apt-get install linux-headers-$(uname -r)
+   49  apt seach linux-headers
+   50  apt search linux-headers
+   51  apt-get install linux-headers-4.4.0-21-generic
+   52  apt-get install -y linux-headers-4.4.0-21-generic
+   53  ll
+   54  apt-get update
+   55  apt-get install -y cuda
+   56  cat /var/lib/apt/lists/*cuda*Packages | grep "Package:"
+   57  cat /var/lib/apt/lists/*cuda* | grep "Package:"
+   58  cat /var/lib/apt/lists/*cuda*
+   59  cat /var/lib/apt/lists/*cuda* | grep "Package:"
+   60  apt-get install -y cuda-drivers cuda
+   61  apt-get install -y nvidia-375* cuda-drivers cuda
+   62  apt-get install -y lib32gcc1 nvidia-375* cuda-drivers cuda
+   63  apt-get install -y lib32gcc1 libgc6-* nvidia-375* cuda-drivers cuda
+   64  apt-get install -y lib32gcc1 libgc6-386 nvidia-375* cuda-drivers cuda
+   65  apt-get install -y lib32gcc1 libgc6-386 nvidia-375 cuda-drivers cuda
+   66  apt-get install -y lib32gcc1 libgc6 nvidia-375 cuda-drivers cuda
+   67  apt-get install -y lib32gcc1 nvidia-375 cuda-drivers cuda
+   68  apt-get install -y xserver-org-core libc6-i386 lib32gcc1 nvidia-375 cuda-drivers cuda
+   69  apt-get install -y xserver-xorg-core libc6-i386 lib32gcc1 nvidia-375 cuda-drivers cuda
+   70  apt-get install -y xserver-xorg-core libc6 libc6-i386 lib32gcc1 nvidia-375 cuda-drivers cuda
+   71  apt-get install -y udev xserver-xorg-core libc6 libc6-i386 lib32gcc1 nvidia-375 cuda-drivers cuda
+   72  apt-get install -y libudev1 udev xserver-xorg-core libc6 libc6-i386 lib32gcc1 nvidia-375 cuda-drivers cuda
+   73  apt-get install -y nvidia-settings  libudev1 udev xserver-xorg-core libc6 libc6-i386 lib32gcc1 nvidia-375 cuda-drivers cuda
+   74  apt-get install -y nvidia-settings screen-resolution-extra  libudev1 udev xserver-xorg-core libc6 libc6-i386 lib32gcc1 nvidia-375 cuda-drivers cuda
+   75  apt-get install -y nvidia-settings screen-resolution-extra libudev1 udev xserver-xorg-core libc6 lib32gcc1 nvidia-375 cuda-drivers cuda
+   76  apt-get install -y nvidia-settings screen-resolution-extra libudev1 udev xserver-xorg-core libc6 lib32gcc1 nvidia-375 cuda-drivers cuda libc6-i386>= 2.2.4
+   77  apt-get install -y nvidia-settings screen-resolution-extra libudev1 udev xserver-xorg-core libc6 lib32gcc1 nvidia-375 cuda-drivers cuda libc6-i386
+   78  apt-get install -y nvidia-settings screen-resolution-extra libudev1 udev xserver-xorg-core libc6 lib32gcc1 nvidia-375 cuda-drivers cuda libc6-i386 nvidia-prime bumblebee
+   79  apt-get install -y -f nvidia-settings screen-resolution-extra libudev1 udev xserver-xorg-core libc6 lib32gcc1 nvidia-375 cuda-drivers cuda libc6-i386 nvidia-prime bumblebee
+   80  apt search libc6-i386
+   81  apt-get upgrade
+   82  apt-get upgrade-dist
+   83  apt-get --help
+   84  apt-get -y dist-upgrade
+   85  apt-get install -y -f nvidia-settings screen-resolution-extra libudev1 udev xserver-xorg-core libc6 lib32gcc1 nvidia-375 cuda-drivers cuda libc6-i386 nvidia-prime bumblebee
+   86  sudo rm /var/cache/apt/archives/libc6*
+   87  echo "deb http://ftp.debian.org/debian experimental main" >> /etc/apt/sources.list
+   88  apt-get install -y -f nvidia-settings screen-resolution-extra libudev1 udev xserver-xorg-core libc6 lib32gcc1 nvidia-375 cuda-drivers cuda libc6-i386 nvidia-prime bumblebee
+   89  apt-get install libc6
+   90  apt-get update
+   91  vi /etc/apt/sources.list
+   92  apt-get install -y vim
+   93  vi /etc/apt/sources.list
+   94  apt-get update
+   95  history
+   96  history > history.txt
