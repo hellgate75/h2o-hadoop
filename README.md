@@ -7,8 +7,12 @@ Docker Image for H2O™ integrated with Apache™ Hadoop® Single/Cluster Node
 Provided Apache™ Hadoop® H2O docker images:
 * [H2O™ with Apache™ Hadoop® 2.8.0](https://github.com/hellgate75/h2o-hadoop/tree/3.10.5.3)
 * [H2O™ with Apache™ Hadoop® 3.0.0-alpha3](https://github.com/hellgate75/h2o-hadoop/tree/3.10.5.3-alpha3)
-* [H2O™ with Apache™ Hadoop® latest](https://github.com/hellgate75/h2o-hadoop) (with Apache™ Hadoop® 3.0.0-alpha3)
+* [H2O™ with Apache™ Hadoop® latest](https://github.com/hellgate75/h2o-hadoop) (with Apache™ Hadoop® 2.8.0)
 
+*NOTE:*
+
+Bug on H2O with Apache 3.0.0-alpha3
+More on following link : [H2O JIRA BORAD Bug #SW-487](https://0xdata.atlassian.net/projects/SW/issues/SW-487?filter=allopenissues)
 
 ### Attention ###
 

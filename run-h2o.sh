@@ -25,6 +25,6 @@ fi
 if [[ "$H2O_CLIENT_MODE" == "yes" ]]; then
   H2O_ARGS="$H2O_ARGS -client"
 fi
-echo "Running H2O with arguments : H2O_ARGS"
+echo "Running H2O with arguments : $H2O_ARGS"
 hadoop jar h2o.jar -ice_root /data -flow_dir /flows"$H2O_ARGS"
 #java -Xmx$H2O_JVM_HEAP_SIZE -jar h2o.jar -ice_root /data -flow_dir /flows "$H2O_ARGS"
