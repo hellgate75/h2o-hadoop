@@ -213,6 +213,12 @@ In order to access to yarn console you can use a web browser and type :
     eg.:
     http://localhost:8088 for a local container
 ```
+For H2O :
+```bash
+    http://{hostname or ip address}:54321
+    eg.:
+    http://localhost:54321 for a local container
+```
 
 
 ### License ###
