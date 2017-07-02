@@ -27,8 +27,12 @@ if [[ -z "$SPARK_RUNNING" ]]; then
   nohup run-h2o &
 fi
 
+echo "Waiting for product start-up ...."
 sleep 30
 netstat aux
+echo ""
+echo "H2O logs :"
+cat /opt/nohup.out
 
 if [[ $1 == "-d" ]]; then
   tail -f /dev/null
