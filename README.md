@@ -24,12 +24,12 @@ You can build your version from repository with following actions:
 ```bash
     git clone http://github.com/hellgate75/h2o-hadoop.git
     cd h2o-hadoop
-    docker build  --rm --force-rm --tag h2o-hadoop:3.10.0.3 ./
+    docker build  --rm --force-rm --tag h2o-hadoop:3.10.5.3-alpha3 ./
 ```
 You can run your image with following actions:
 ```bash
     docker run -it --name my-h2o-hadoop -p 8088:8088 -p 9000:9000  -p 54321:54321 \
-    -p 54322:54322 -p 55555:55555 h2o-hadoop:3.10.0.3
+    -p 54322:54322 -p 55555:55555 h2o-hadoop:3.10.5.3-alpha3
 ```
 
 
